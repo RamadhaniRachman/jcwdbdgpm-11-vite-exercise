@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #646cff;
+  --bg-dark: #1a1a1a;
+  --text-light: #ffffff;
+  --accent: #535bf2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 10%;
+  background: var(--bg-dark);
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+/* hero section */
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://img.freepik.com/free-photo/laptop-office-plant-black-background-top-view_169016-34505.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.hero h1 span {
+  color: var(--primary-color);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--accent);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--bg-dark);
+  color: white;
+}
