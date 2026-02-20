@@ -1,0 +1,32 @@
+/* hero section */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://img.freepik.com/free-photo/laptop-office-plant-black-background-top-view_169016-34505.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.hero h1 span {
+  color: var(--primary-color);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: white;
+}
